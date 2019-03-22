@@ -1,51 +1,53 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title>Questão 01 </title>
-<meta = charset="utf-8">
-<script type="text/javascript">
-function btn1()
-{
-document.bgColor='red';
-}
-function btn2()
-{
-document.bgColor='green';
-}
-function btn3()
-{
-document.bgColor='blue';
-}
-function btn4()
-{
-document.bgColor='#F7FE2E';
-}
-</script>
-</head>
 
-<body>
-<center>
-<div class="divGeral"> <!-- Utilizando as divs para divisao das tabelas -->
-<div class="cabelho"></div>
+    <head>
+        <title>Questão 01 </title>
+        <meta=charset="utf-8">
+            <script type="text/javascript">
+                function btn1() {
+                    document.bgColor = 'red';
+                }
 
-<h1>Formulário de Contato</h1>
+                function btn2() {
+                    document.bgColor = 'green';
+                }
 
-<label> Nome: </label>
-<input type="text" name="nome"/>
-<input type="button" name="enviar" value="Enviar" onclick="btn1();"><br><br>
+                function btn3() {
+                    document.bgColor = 'blue';
+                }
 
-<label> Email: </label>
-<input type="text" name="email"/>
-<input type="button" name="enviar" value="Enviar" onclick="btn2();"><br><br>
+                function btn4() {
+                    document.bgColor = '#F7FE2E';
+                }
+            </script>
+    </head>
 
-<label> Telefone: </label>
-<input type="text" name="Telefone"/>
-<input type="button" name="enviar" value="Enviar" onclick="btn3();"><br><br>
+    <body>
+        <center>
+            <div class="divGeral">
+                <!-- Utilizando as divs para divisao das tabelas -->
+                <div class="cabelho"></div>
 
-<label> Endereço: </label>
-<input type="text" name="endereço"/>
-<input type="button" name="enviar" value="Enviar" onclick="btn4();"><br><br>
+                <h1>Formulário de Contato</h1>
 
-</body>
-</center>
+                <label> Nome: </label>
+                <input type="text" name="nome" />
+                <input type="button" name="enviar" value="Enviar" onclick="btn1();"><br><br>
+
+                <label> Email: </label>
+                <input type="text" name="email" />
+                <input type="button" name="enviar" value="Enviar" onclick="btn2();"><br><br>
+
+                <label> Telefone: </label>
+                <input type="text" name="Telefone" />
+                <input type="button" name="enviar" value="Enviar" onclick="btn3();"><br><br>
+
+                <label> Endereço: </label>
+                <input type="text" name="endereço" />
+                <input type="button" name="enviar" value="Enviar" onclick="btn4();"><br><br>
+
+    </body>
+    </center>
+
 </html>
