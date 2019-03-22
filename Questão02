@@ -1,28 +1,34 @@
 <html>
+
     <head>
         <title>Questao 2</title>
-        <meta charset="utf-8" />    
+        <meta charset="utf-8" />
         <script type="text/javascript">
-        function colorRosa() {
-    document.getElementById("body").style.backgroundColor="#FF0040";
-    }
-function colorLilas() {
-    document.getElementById("body").style.backgroundColor="#CC2EFA";
-    }
-function colorVermelho() {
-    document.getElementById("body").style.backgroundColor="#FF0000";
-    }
-function colorLaranja() {
-    document.getElementById("body").style.backgroundColor="#FE642E";
-    }
-    </script>
+            function colorRosa() {
+                document.getElementById("body").style.backgroundColor = "#FF0040";
+            }
+
+            function colorLilas() {
+                document.getElementById("body").style.backgroundColor = "#CC2EFA";
+            }
+
+            function colorVermelho() {
+                document.getElementById("body").style.backgroundColor = "#FF0000";
+            }
+
+            function colorLaranja() {
+                document.getElementById("body").style.backgroundColor = "#FE642E";
+            }
+        </script>
     </head>
+
     <body id="body">
-	<center>
-        <a href="" onmouseover="colorRosa()">Rosa</a><br><br>
-        <a href="" onmouseover="colorLilas()">Lilas</a><br><br>
-        <a href="" onmouseover="colorVermelho()">Vermelho</a><br><br>
-        <a href="" onmouseover="colorLaranja()">Laranja</a><br><br>
-	</center>
+        <center>
+            <a href="" onmouseover="colorRosa()">Rosa</a><br><br>
+            <a href="" onmouseover="colorLilas()">Lilas</a><br><br>
+            <a href="" onmouseover="colorVermelho()">Vermelho</a><br><br>
+            <a href="" onmouseover="colorLaranja()">Laranja</a><br><br>
+        </center>
     </body>
+
 </html>
