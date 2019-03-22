@@ -16,7 +16,7 @@
                     array[c] = a[i];
                     c = c + 2;
                 }
-                c = 1;
+                c = 1; 
                 for (i = 0; i < b.length; i++) {
                     array[c] = b[i];
                     c = c + 2;
